@@ -20,3 +20,13 @@ function App() {
 }
 
 export default App;
+
+// /* component hierarchy
+// App
+//  |--Header
+//  |--ShoppingList
+//    |--ItemForm
+//    |--Filter
+//    |--Item
+
+// */

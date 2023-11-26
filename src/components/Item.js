@@ -13,8 +13,7 @@ function Item({ name, category }) {
       <span className="category">{category}</span>
       <button
         className={isInCart ? "remove" : "add"}
-        onClick={handleAddToCartClick}
-      >
+        onClick={handleAddToCartClick}>
         {isInCart ? "Remove From" : "Add to"} Cart
       </button>
     </li>
